@@ -1,0 +1,67 @@
+.bannercarousel {
+  padding: 100px 0;
+  background-image: url(../../assets/images/vector3.png);
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+
+  .carousel-card {
+    width: 1660px;
+    height: 439px;
+    display: flex;
+    background: #FFF;
+    box-shadow: 4px 4px 19px 0px rgba(0, 0, 0, 0.10);
+    margin: 20px auto;
+
+    .carousel-card-left {
+      width: 880px;
+
+      .carousel-title {
+        padding: 50px 0 15px 87px;
+        color: #000;
+
+        font-family: Raleway;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+      }
+
+      .carousel-subtitle {
+        width: 646px;
+        padding: 0px 0 15px 87px;
+        color: rgba(67, 67, 68, 0.80);
+
+        font-family: Raleway;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        // font-variant: small-caps;
+
+      }
+
+      .carousel-btn {
+        margin: 0px 0 15px 87px;
+
+        border-radius: 5px;
+        border: 0.795px solid rgba(255, 165, 0, 0.86);
+        box-shadow: 4.389px 4.389px 6.584px -2.195px rgba(0, 0, 0, 0.25);
+        background-color: #FFF;
+        color: rgba(255, 165, 0, 0.86);
+        padding: 12px 37px;
+
+      }
+
+    }
+
+    .carousel-card-right {
+      width: 150px;
+      padding: 0 380px;
+      background-image: url(../../assets/images/tools1.png), url(../../assets/images/tools2.png);
+      background-position: 0%, 100%;
+      background-repeat: no-repeat;
+
+    }
+  }
+}

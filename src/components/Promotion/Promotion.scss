@@ -1,0 +1,26 @@
+.promotion {
+  background-image: url(../../assets/images/vector4.png);
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  .promotion-title{
+    padding: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.60);
+    gap: 20px;
+
+font-family: Raleway;
+font-size: 65px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+  }
+  .promotion-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+}

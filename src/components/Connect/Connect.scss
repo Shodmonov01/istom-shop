@@ -1,0 +1,82 @@
+.connect-title {
+  padding: 80px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.60);
+  gap: 20px;
+
+font-family: Raleway;
+font-size: 38px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+
+.connect {
+  background-image: url(../../assets/images/vector6.png), url(../../assets/images/vector7.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 110% 0% , 0% 100%;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center
+  ;
+  gap: 166px;
+  .connect-left {
+    text-align: center;
+    width: 675px;
+    height: 877px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 4px 4px 25px -9px rgba(0, 0, 0, 0.20);
+    .con-left-title {
+      padding: 80px 0 0 0;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: rgba(0, 0, 0, 0.60);
+      gap: 20px;
+  
+  font-family: Raleway;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+    }
+    .con-left-subtitle {
+      width: 438px;
+      padding: 0px 0 0 118px;
+      color: rgba(46, 48, 61, 0.72);
+
+      text-align: center;
+      font-family: Raleway;
+      font-size: 23px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    .connect-name, .connect-number, .connect-quest {
+      margin-bottom: 20px;
+      width: 399px;
+height: 48px;
+
+      border: none;
+      border-radius: 5px;
+background: #F5F5F5;
+    }
+
+    .connect-button{
+      margin-top: 30px;
+      padding: 25px 60px;
+    }
+  }
+  .connect-right{
+    width: 819px;
+height: 556px;
+
+background: #060606;
+  }
+}

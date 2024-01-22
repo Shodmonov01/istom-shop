@@ -1,0 +1,56 @@
+.homebanner {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+
+  .homebanner-left {
+    // left: 800px;
+    z-index: 1;
+    background-image: url(../../assets/images/pngwing.svg);
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    // background-size: ;
+    padding: 110px 0 110px 110px;
+    display: flex;
+    // justify-content: center;
+    flex-direction: column;
+
+    .homebanner-title {
+      // padding: 100px;
+
+      width: 1101px;
+      font-size: 65px;
+
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+
+    .homebanner-subtitle {
+      width: 620px;
+      color: rgba(0, 0, 0, 0.60);
+
+      font-family: Raleway;
+      font-size: 21px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+
+    .homebanner-button {
+      margin-top: 50px;
+      width: 204px;
+      height: 52px;
+    }
+
+  }
+
+  .homebanner-right {
+    z-index: -1;
+    // padding: 0 200px 0 0;
+
+
+    // position: absolute;
+    // right: 1000px;
+  }
+}
